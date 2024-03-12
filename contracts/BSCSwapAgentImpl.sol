@@ -134,4 +134,3 @@ contract  BSCSwapAgentImpl is Context, Initializable {
         emit SwapStarted(bep20Addr, erc20Addr, msg.sender, amount, msg.value);
         return true;
     }
-}
