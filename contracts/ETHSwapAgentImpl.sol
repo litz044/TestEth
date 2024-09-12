@@ -112,4 +112,3 @@ contract ETHSwapAgentImpl is Context {
         emit SwapStarted(erc20Addr, msg.sender, amount, msg.value);
         return true;
     }
-}
